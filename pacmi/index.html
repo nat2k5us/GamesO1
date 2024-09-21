@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pacmi - A Pac-Man Clone</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      overflow: hidden;
+    }
+    #gameCanvas {
+      display: block;
+      margin: 0 auto;
+      background-color: black;
+    }
+    #scoreBoard {
+      color: white;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      padding: 10px;
+    }
+    #gameOverScreen, #startScreen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: 'Arial', sans-serif;
+      z-index: 10;
+    }
+    #gameOverScreen.hidden, #startScreen.hidden {
+      display: none;
+    }
+    #gameOverScreen button, #startScreen button {
+      padding: 10px 20px;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div id="scoreBoard">
+    Score: <span id="score">0</span> &nbsp;&nbsp; Lives: <span id="lives">3</span> &nbsp;&nbsp; Level: <span id="level">1</span>
+  </div>
+  <canvas id="gameCanvas" width="560" height="620"></canvas>
+  <div id="startScreen">
+    <h1>Pacmi</h1>
+    <button id="startButton">Start Game</button>
+  </div>
+  <div id="gameOverScreen" class="hidden">
+    <h1>Game Over</h1>
+    <p>Your Score: <span id="finalScore">0</span></p>
+    <button id="restartButton">Play Again</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

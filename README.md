@@ -1,5 +1,5 @@
 # GamesO1
-## These Games are created using the o1 - preview new model of chat GPT - enjoy and post your feedback to my youtube channel.
+## These Games are created using the o1 - preview new model of chat GPT - enjoy and post your feedback to my youtube channel https://www.youtube.com/@NatKus9
 
 ## Pacmi - A Pac-Man Clone
 

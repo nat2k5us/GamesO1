@@ -2,6 +2,7 @@
 ## These Games are created using the o1 - preview new model of chat GPT - enjoy and post your feedback to my youtube channel https://www.youtube.com/@NatKus9
 
 ## Pacmi - A Pac-Man Clone
+playable Demo: https://raw.githack.com/nat2k5us/GamesO1/main/pacmi/index.html
 
 ### Description
 Pacmi is a clone of the classic Pac-Man game. Navigate the maze, eat pellets, and avoid ghosts to advance to the next level.
@@ -24,7 +25,7 @@ Pacmi is a clone of the classic Pac-Man game. Navigate the maze, eat pellets, an
 5. Avoid ghosts or eat them when they are frightened.
 
 ## Space Invaders Clone
-
+Playable demo: https://raw.githack.com/nat2k5us/GamesO1/main/spaceinvaders/index.html
 ### Description
 A clone of the classic Space Invaders game. Shoot down enemies and avoid their attacks to score points.
 
@@ -45,7 +46,7 @@ A clone of the classic Space Invaders game. Shoot down enemies and avoid their a
 4. Avoid enemy attacks and shoot down enemies to score points.
 
 ## Tetris
-
+Playable Demo: https://raw.githack.com/nat2k5us/GamesO1/main/tetris/tetris.html
 ### Description
 A clone of the classic Tetris game. Arrange falling blocks to complete lines and score points.
 

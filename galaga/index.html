@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Galaga Clone</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+            background: #000;
+        }
+        #score, #lives, #powerUp, #level {
+            position: absolute;
+            top: 10px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+        #score { left: 10px; }
+        #lives { right: 10px; }
+        #powerUp { left: 50%; transform: translateX(-50%); }
+        #level { top: 40px; left: 10px; }
+    </style>
+</head>
+<body>
+    <div id="score">Score: 0</div>
+    <div id="lives">Lives: 3</div>
+    <div id="powerUp">Power-Up: None</div>
+    <div id="level">Level: 1</div>
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Preload Audio Elements -->
+    <audio id="fireSound" src="fire.mp3" preload="auto"></audio>
+    <audio id="deathSound" src="death.mp3" preload="auto"></audio>
+    <audio id="explosionSound" src="explosion.mp3" preload="auto"></audio>
+
+    <script src="game.js"></script>
+</body>
+</html>

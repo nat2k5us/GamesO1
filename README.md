@@ -63,3 +63,19 @@ A clone of the classic Tetris game. Arrange falling blocks to complete lines and
 1. Open [tetris/tetris.html](tetris/tetris.html) or [tetris/tetris1.html](tetris/tetris1.html) in a web browser.
 2. Use arrow keys to move and rotate the blocks.
 3. Complete lines to score points and advance to the next level.
+
+
+## Galaga Clone
+Playable Demo: https://raw.githack.com/nat2k5us/GamesO1/main/galaga/index.html
+### Description
+A clone of the classic Galaga game. Shoot down enemies, collect power-ups, and progress through levels.
+
+### Files
+- [galaga/index.html](galaga/index.html): The main HTML file for the Galaga game.
+- [galaga/game.js](galaga/game.js): The JavaScript file containing the game logic for Galaga.
+
+### Key Features
+- Player movement and shooting.
+- Enemies that move and attack.
+- Power-ups and explosions.
+- Score, lives, and level tracking.

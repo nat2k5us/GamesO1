@@ -79,3 +79,18 @@ A clone of the classic Galaga game. Shoot down enemies, collect power-ups, and p
 - Enemies that move and attack.
 - Power-ups and explosions.
 - Score, lives, and level tracking.
+
+## Dkong Clone
+Playable Demo: https://raw.githack.com/nat2k5us/GamesO1/main/dkingkong/index.html
+### Description
+A clone of the classic donkey kong game. Shoot down enemies, collect power-ups, and progress through levels.
+
+### Files
+- [dkingkong/index.html](dkingkong/index.html): The main HTML file for the dkingkong game.
+- [dkingkong/game.js](dkingkong/game.js): The JavaScript file containing the game logic for dkingkong.
+
+### Key Features
+- Player movement and shooting.
+- Enemies that move and attack.
+- Power-ups and explosions.
+- Score, lives, and level tracking.
